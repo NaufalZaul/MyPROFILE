@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+img {
+  width: 100%;
+}
+
+header,
+main {
+  min-height: 90vh;
+}
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(241, 242, 244);
+  padding: 0.5em 4em;
+  z-index: 999;
+}
+.brand img {
+  width: 58%;
+}
+.menu a {
+  margin: auto 1em;
+  padding: 0.5em;
+}
+
+.menu a:hover {
+  font-weight: 600;
+}
+/* HEADER */
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #9599e2;
+  background-image: linear-gradient(135deg, #9599e2 0%, #8bc6ec 60%);
+  padding: 0 5em;
+}
+.header-desc {
+  width: 40%;
+  font-size: 30px;
+  color: #fff;
+}
+.header-desc h1 {
+  font-size: 50px;
+  margin-bottom: 0.3em;
+}
+.header-desc span {
+  font-weight: 700;
+  border-bottom: 3px solid #fff;
+}
+.header-img {
+  width: 25%;
+}
+
+.decoration {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 40%;
+}
+
+/* MAIN ABOUT */
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3bda8;
+  padding: 0 5em;
+}
+.desc-img {
+  width: 40%;
+  margin-top: 2em;
+  /* margin: auto; */
+}
+.desc-about {
+  width: 50%;
+  font-size: 25px;
+}
+.desc-about h1 {
+  font-size: 40px;
+  margin-bottom: 0.5em;
+}
+.desc-about span {
+  font-weight: 700;
+}
+
+/* SKILLS */
+#skills {
+  background-color: #8bc6ec;
+  padding: 5em;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card {
+  position: absolute;
+  width: 25%;
+  /* border: 1px solid black; */
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #fd5a86;
+  color: #fff;
+  box-shadow: 1px 1px 1px rgb(197, 197, 197);
+  font-weight: 200;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
+}
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 0.5em;
+}
+.web-developer {
+  top: 25%;
+  left: 0;
+}
+.frontend-developer {
+  top: 25%;
+  right: 0;
+}
+.software-engineer {
+  bottom: 0;
+  right: 0;
+}
+.uiux-design {
+  bottom: 0;
+  left: 0;
+}
+
+/* CONTACT */
+#contact {
+  background-color: #d9afd9;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact .desc-about {
+  /* width: 30%; */
+}
+.contact .desc-about a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em auto;
+}
+.contact .desc-about a img {
+  width: 15%;
+  margin-right: 1em;
+}
+.contact .desc-about a p {
+  font-size: 22px;
+}
+
+.contact .desc-img {
+  margin: 0;
+  width: 100%;
+}
+.contact .desc-img img {
+}
+
+/* FOOTER */
+
+footer {
+  /* display: none; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1em 2em;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+}
+footer .brand {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+footer .brand img {
+  width: 15%;
+  margin-right: 1em;
+}
+footer a {
+  width: 6.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
